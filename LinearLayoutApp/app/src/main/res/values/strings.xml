@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LinearLayoutApp</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="enviar">Enviar</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="deletar">Deletar</string>
+    <string name="salvar">Salvar</string>
+    <string name="logar">Logar</string>
+
+</resources>
