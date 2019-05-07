@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:gravity="center"
+        android:background="#009688"
+        android:padding="5dp"
+        android:text="@string/login"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/edtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/txtUserName"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@id/edtPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="#009688"
+        android:paddingBottom="5dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
+        android:text="@string/enviar"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:id="@+id/cxcx"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/btnLogar"
+        android:layout_marginTop="5dp"
+        android:background="#009688"
+        android:orientation="horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cxcx">
+
+        <TextView
+            android:id="@+id/lblComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:text="@string/comentarios"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtComments"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignLeft="@id/lblComments"
+            android:layout_below="@id/lblComments"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="3dp"
+            android:background="#3362"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/edtComments"
+            android:layout_below="@+id/edtComments"
+            android:layout_margin="3dp"
+            android:background="#009688"
+            android:padding="5dp"
+            android:text="@string/salvar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnSalvar"
+            android:layout_alignBottom="@+id/btnSalvar"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="3dp"
+            android:background="#3b7bea"
+            android:padding="5dp"
+            android:text="@string/deletar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#009688"
+        android:padding="8dp"
+        android:text="@string/logar"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtUserName"
+        android:layout_marginTop="20dp"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtLogin"
+        android:layout_marginTop="10dp"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/txtPassword"
+        android:ems="10"/>
+
+</RelativeLayout>
