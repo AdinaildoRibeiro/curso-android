@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CardViewApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Adicionar aos Favoritos</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">Top 20 albums</string>
+    <string name="appbar_scrolling_view_behavior"></string>
+
+</resources>
