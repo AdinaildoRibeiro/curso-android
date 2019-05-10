@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragSalas"
+    android:orientation="vertical"
+    >
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnSala1"
+      android:text="SALA 1"
+      android:background="@android:color/transparent"
+      />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSala2"
+        android:text="SALA 2"
+        android:background="@android:color/transparent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSala3"
+        android:text="SALA 3"
+        android:background="@android:color/transparent"
+        />
+
+</LinearLayout>
